@@ -20,7 +20,7 @@ const apiKey = env.apiKey
 openai.apiUrl = apiUrl
 openai.apiKey = apiKey
 
-const promptsFunc = new AIPromptsFunc(AIPromptsName, {dbPath: ':memory:'})
+// const promptsFunc = new AIPromptsFunc(AIPromptsName, {dbPath: ':memory:'})
 
 const messages = [
   {role: 'user', content: '1+2='},
@@ -176,8 +176,8 @@ async function testGeneration(provider: LLMProvider = openai) {
 
 describe('openai Provider', async () => {
   beforeAll(async ()=>{
-    await promptsFunc.initData()
-    ToolFunc.register(promptsFunc)
+    // await promptsFunc.initData()
+    // ToolFunc.register(promptsFunc)
     testLLMProvider.register()
     openai.register()
     /*
