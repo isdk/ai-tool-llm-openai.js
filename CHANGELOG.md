@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 0.1.1 (2024-09-25)
+
+
+### Refactor
+
+* add default model supports ([9b509a3](https://github.com/isdk/ai-tool-llm-openai.js/commit/9b509a3de9f8e3c9b903969f874ad800399f2b69))
+
 ## [0.3.9](https://github.com/isdk/ai-tool-llm-llamacpp.js/compare/v0.3.8...v0.3.9) (2024-09-02)
 
 ## [0.3.8](https://github.com/isdk/ai-tool-llm-llamacpp.js/compare/v0.3.7...v0.3.8) (2024-09-02)
