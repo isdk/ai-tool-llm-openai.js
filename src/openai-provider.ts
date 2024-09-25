@@ -135,7 +135,7 @@ export class OpenaiProvider extends LLMProvider {
 
       value = params.value
       delete params.value
-      const isStream = options!.stream
+      // const isStream = options!.stream
 
       const body: any = {
         ...params,
