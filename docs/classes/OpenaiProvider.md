@@ -352,7 +352,7 @@ packages/ai-tool-llm/dist/index.d.ts:330
 
 #### Defined in
 
-[packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/9b509a3de9f8e3c9b903969f874ad800399f2b69/src/openai-provider.ts#L22)
+[packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/3fbd49844808b871a953477e899e1386a8cded30/src/openai-provider.ts#L22)
 
 ***
 
@@ -1020,7 +1020,7 @@ packages/ai-tool-llm/dist/index.d.ts:352
 
 #### Defined in
 
-[packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/9b509a3de9f8e3c9b903969f874ad800399f2b69/src/openai-provider.ts#L111)
+[packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/3fbd49844808b871a953477e899e1386a8cded30/src/openai-provider.ts#L111)
 
 ***
 
@@ -1460,7 +1460,7 @@ packages/ai-tool/dist/index-DUEs7T8M.d.ts:84
 
 #### Defined in
 
-[packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/9b509a3de9f8e3c9b903969f874ad800399f2b69/src/openai-provider.ts#L32)
+[packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/3fbd49844808b871a953477e899e1386a8cded30/src/openai-provider.ts#L32)
 
 ***
 
