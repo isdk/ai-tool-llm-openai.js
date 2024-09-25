@@ -33,6 +33,9 @@ export class OpenaiProvider extends LLMProvider {
     const vIsString = typeof prompt === 'string'
     const baseURL = options.apiUrl || this.apiUrl
     // const apiKey = options.apiKey || this.apiKey
+    if (!model && this.model) {
+      model = this.model
+    }
     if (!model) {
       throw new NotFoundError('missing model name', 'OpenaiProvider')
     }
