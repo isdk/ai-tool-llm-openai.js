@@ -146,7 +146,6 @@ export class OpenaiProvider extends LLMProvider {
       // No permission: Uncaught PermissionDeniedError: 403 status code (no body)
       let result: any = await client.chat.completions.create(body, {signal})
       if (result.toReadableStream) {
-        console.log('isStream', isStream)
         result = (result as any).toReadableStream().pipeThrough(createOpenaiStreamTransformer())
       } else {
         result = openaiToAIResult(result)
