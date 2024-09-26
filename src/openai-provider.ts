@@ -145,10 +145,11 @@ export class OpenaiProvider extends LLMProvider {
 
       // No permission: Uncaught PermissionDeniedError: 403 status code (no body)
       let result: any = await client.chat.completions.create(body, {signal})
+      params = Object.fromEntries(Object.entries(params).filter(([k, v]) => v !== undefined && !['name', 'signal', 'messages'].includes(k)))
       if (result.toReadableStream) {
-        result = (result as any).toReadableStream().pipeThrough(createOpenaiStreamTransformer())
+        result = (result as any).toReadableStream().pipeThrough(createOpenaiStreamTransformer(params))
       } else {
-        result = openaiToAIResult(result)
+        result = openaiToAIResult(result, params)
       }
 
       return result as AIResult
@@ -161,11 +162,11 @@ makeToolFuncCancelable(OpenaiProvider, {asyncFeatures: AsyncFeatures.MultiTask})
 
 export const openai = new OpenaiProvider(OpenaiProviderName)
 
-function createOpenaiStreamTransformer() {
+function createOpenaiStreamTransformer(params: any) {
   return new TransformStream({
     transform(chunk: OpenAI.Chat.Completions.ChatCompletionChunk, controller) {
       //
-      controller.enqueue(openaiToAIResultChunk(chunk))
+      controller.enqueue(openaiToAIResultChunk(chunk, params))
     }
   })
 }
