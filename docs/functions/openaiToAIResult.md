@@ -6,11 +6,13 @@
 
 # Function: openaiToAIResult()
 
-> **openaiToAIResult**(`res`): `AIResult`\<`string`, `OpenAI.Chat.Completions.ChatCompletion`\>
+> **openaiToAIResult**(`res`, `params`?): `AIResult`\<`string`, `OpenAI.Chat.Completions.ChatCompletion`\>
 
 ## Parameters
 
 • **res**: `ChatCompletion`
+
+• **params?**: `any`
 
 ## Returns
 
@@ -18,4 +20,4 @@
 
 ## Defined in
 
-[packages/ai-tool-llm-openai/src/options.ts:26](https://github.com/isdk/ai-tool-llm-openai.js/blob/3fbd49844808b871a953477e899e1386a8cded30/src/options.ts#L26)
+[packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/6476433f6e47f6d6bd16f721dd11e956fb446bba/src/options.ts#L28)
