@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.3](https://github.com/isdk/ai-tool-llm-openai.js/compare/v0.1.2...v0.1.3) (2024-09-30)
+
+
+### Bug Fixes
+
+* generation_settings should be exists ([6476433](https://github.com/isdk/ai-tool-llm-openai.js/commit/6476433f6e47f6d6bd16f721dd11e956fb446bba))
+
 ## [0.1.2](https://github.com/isdk/ai-tool-llm-openai.js/compare/v0.1.1...v0.1.2) (2024-09-25)
 
 ## 0.1.1 (2024-09-25)
