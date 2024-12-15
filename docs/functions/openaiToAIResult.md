@@ -20,4 +20,4 @@
 
 ## Defined in
 
-[packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/6476433f6e47f6d6bd16f721dd11e956fb446bba/src/options.ts#L28)
+[packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/3223a09a732afad2f56a591d629895c3f8ac9891/src/options.ts#L28)
