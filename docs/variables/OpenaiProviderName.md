@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[packages/ai-tool-llm-openai/src/openai-provider.ts:9](https://github.com/isdk/ai-tool-llm-openai.js/blob/3223a09a732afad2f56a591d629895c3f8ac9891/src/openai-provider.ts#L9)
+[packages/ai-tool-llm-openai/src/openai-provider.ts:9](https://github.com/isdk/ai-tool-llm-openai.js/blob/7def9b5da9d2b9fb414826fa9b8db0a3812e7d5d/src/openai-provider.ts#L9)
