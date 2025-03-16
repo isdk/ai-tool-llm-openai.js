@@ -8,7 +8,7 @@
 
 > **openaiToAIResult**(`res`, `params`?): `AIResult`\<`string`, `ChatCompletion`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/0b3422b89bdf3dbaca31739cc6ed3b845ce4c762/src/options.ts#L28)
+Defined in: [packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/c74d7d2156c3da842b0b49623eb91f35720bc2a3/src/options.ts#L28)
 
 ## Parameters
 
