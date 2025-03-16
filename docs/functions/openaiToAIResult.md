@@ -1,4 +1,4 @@
-[**@isdk/ai-tool-llm-openai**](../README.md) • **Docs**
+[**@isdk/ai-tool-llm-openai**](../README.md)
 
 ***
 
@@ -6,18 +6,20 @@
 
 # Function: openaiToAIResult()
 
-> **openaiToAIResult**(`res`, `params`?): `AIResult`\<`string`, `OpenAI.Chat.Completions.ChatCompletion`\>
+> **openaiToAIResult**(`res`, `params`?): `AIResult`\<`string`, `ChatCompletion`\>
+
+Defined in: [packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/0b3422b89bdf3dbaca31739cc6ed3b845ce4c762/src/options.ts#L28)
 
 ## Parameters
 
-• **res**: `ChatCompletion`
+### res
 
-• **params?**: `any`
+`ChatCompletion`
+
+### params?
+
+`any`
 
 ## Returns
 
-`AIResult`\<`string`, `OpenAI.Chat.Completions.ChatCompletion`\>
-
-## Defined in
-
-[packages/ai-tool-llm-openai/src/options.ts:28](https://github.com/isdk/ai-tool-llm-openai.js/blob/bd6a1616aa63f960087c6f27f4fee8522203933d/src/options.ts#L28)
+`AIResult`\<`string`, `ChatCompletion`\>

@@ -1,4 +1,4 @@
-[**@isdk/ai-tool-llm-openai**](README.md) • **Docs**
+[**@isdk/ai-tool-llm-openai**](README.md)
 
 ***
 

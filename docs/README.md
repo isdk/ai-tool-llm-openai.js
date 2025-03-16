@@ -1,4 +1,4 @@
-**@isdk/ai-tool-llm-openai** • [**Docs**](globals.md)
+**@isdk/ai-tool-llm-openai**
 
 ***
 
