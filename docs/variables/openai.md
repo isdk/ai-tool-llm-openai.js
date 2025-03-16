@@ -8,4 +8,4 @@
 
 > `const` **openai**: [`OpenaiProvider`](../classes/OpenaiProvider.md)
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:163](https://github.com/isdk/ai-tool-llm-openai.js/blob/502520b37ecd8a5c0f2e521f4e48eeaea85bdc90/src/openai-provider.ts#L163)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:163](https://github.com/isdk/ai-tool-llm-openai.js/blob/bfa242d5996c66d630a9263125a30543866f3d18/src/openai-provider.ts#L163)
