@@ -6,7 +6,7 @@
 
 # Class: OpenaiProvider
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/31d1289ad4892b890df16927f633b2a549c38de4/src/openai-provider.ts#L20)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/502520b37ecd8a5c0f2e521f4e48eeaea85bdc90/src/openai-provider.ts#L20)
 
 ## Extends
 
@@ -338,7 +338,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:335
 
 > **rule**: (`string` \| `RegExp`)[]
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/31d1289ad4892b890df16927f633b2a549c38de4/src/openai-provider.ts#L22)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/502520b37ecd8a5c0f2e521f4e48eeaea85bdc90/src/openai-provider.ts#L22)
 
 ***
 
@@ -1064,7 +1064,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:357
 
 > **func**(`__namedParameters`): `Promise`\<`any`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/31d1289ad4892b890df16927f633b2a549c38de4/src/openai-provider.ts#L111)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/502520b37ecd8a5c0f2e521f4e48eeaea85bdc90/src/openai-provider.ts#L111)
 
 #### Parameters
 
@@ -1546,7 +1546,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:73
 
 > **processModelOptions**(`model`, `prompt`, `options`): `Promise`\<`AIOptions`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/31d1289ad4892b890df16927f633b2a549c38de4/src/openai-provider.ts#L32)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/502520b37ecd8a5c0f2e521f4e48eeaea85bdc90/src/openai-provider.ts#L32)
 
 #### Parameters
 
