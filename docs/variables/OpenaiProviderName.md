@@ -8,4 +8,4 @@
 
 > `const` **OpenaiProviderName**: `"openai"` = `'openai'`
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:9](https://github.com/isdk/ai-tool-llm-openai.js/blob/bfa242d5996c66d630a9263125a30543866f3d18/src/openai-provider.ts#L9)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:9](https://github.com/isdk/ai-tool-llm-openai.js/blob/7c0e2fd6251c3fca42d35aed030017dcc528f3d2/src/openai-provider.ts#L9)
