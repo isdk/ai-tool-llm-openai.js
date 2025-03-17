@@ -6,7 +6,7 @@
 
 # Class: OpenaiProvider
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/7c0e2fd6251c3fca42d35aed030017dcc528f3d2/src/openai-provider.ts#L20)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L20)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://gith
 
 > **new OpenaiProvider**(`name`, `options`?): [`OpenaiProvider`](OpenaiProvider.md)
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:69
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:73
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:69
 
 > **\_\_task\_aborter**: `undefined` \| `TaskAbortController` \| `TaskAbortControllers`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:539
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:546
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:539
 
 > **\_\_task\_semaphore**: `undefined` \| `Semaphore`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:540
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:547
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:540
 
 > `optional` **\_asyncFeatures**: `number`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:531
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:538
 
 #### Inherited from
 
@@ -84,7 +84,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:531
 
 > `optional` **\_isReadyFn**: `SemaphoreIsReadyFuncType`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:533
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:540
 
 #### Inherited from
 
@@ -96,7 +96,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:533
 
 > **\_maxTaskConcurrency**: `undefined` \| `number`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:532
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:539
 
 #### Inherited from
 
@@ -109,6 +109,14 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:532
 > **$attributes**: `Properties`
 
 Defined in: node\_modules/.pnpm/property-manager@2.0.0/node\_modules/property-manager/lib/advance.d.ts:5
+
+***
+
+### alias?
+
+> `optional` **alias**: `string` \| `string`[]
+
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:33
 
 ***
 
@@ -132,7 +140,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:154
 
 > **cleanMultiTaskAborter**: (`id`, `aborters`) => `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:538
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:545
 
 #### Parameters
 
@@ -206,7 +214,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:317
 
 > **generateAsyncTaskId**: (`taskId`?, `aborters`?) => `AsyncTaskId`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:537
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:544
 
 #### Parameters
 
@@ -232,7 +240,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:537
 
 > `optional` **isApi**: `boolean`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:31
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:31
 
 ***
 
@@ -248,7 +256,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:310
 
 > `optional` **name**: `string`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:25
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:25
 
 ***
 
@@ -338,7 +346,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:335
 
 > **rule**: (`string` \| `RegExp`)[]
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/7c0e2fd6251c3fca42d35aed030017dcc528f3d2/src/openai-provider.ts#L22)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L22)
 
 ***
 
@@ -346,7 +354,7 @@ Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://gith
 
 > `optional` **scope**: `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:28
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:28
 
 ***
 
@@ -354,7 +362,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:28
 
 > `optional` **setup**: (`this`, `options`?) => `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:30
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:30
 
 #### Parameters
 
@@ -376,7 +384,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:30
 
 > `optional` **stream**: `boolean`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:32
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:32
 
 ***
 
@@ -392,7 +400,19 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:152
 
 > `optional` **tags**: `string` \| `string`[]
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:29
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:29
+
+***
+
+### aliases
+
+> `static` **aliases**: `object`
+
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:54
+
+#### Index Signature
+
+\[`name`: `string`\]: `string`
 
 ***
 
@@ -408,7 +428,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:313
 
 > `static` **dataPath**: `string`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:53
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:57
 
 ***
 
@@ -430,7 +450,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:314
 
 > **get** **maxTaskConcurrency**(): `undefined` \| `number`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:541
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:548
 
 ##### Returns
 
@@ -448,7 +468,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:541
 
 > **get** **semaphore**(): `undefined` \| `Semaphore`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:542
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:549
 
 ##### Returns
 
@@ -464,7 +484,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:542
 
 > **\_cleanMultiTaskAborter**(`id`, `aborters`): `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:554
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:561
 
 #### Parameters
 
@@ -490,7 +510,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:554
 
 > **\_generateAsyncTaskId**(`taskId`?, `aborters`?): `AsyncTaskId`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:549
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:556
 
 #### Parameters
 
@@ -516,7 +536,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:549
 
 > **$cleanMultiTaskAborter**(`id`, `aborters`): `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:552
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:559
 
 #### Parameters
 
@@ -542,7 +562,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:552
 
 > **$generateAsyncTaskId**(`taskId`?, `aborters`?): `undefined` \| `AsyncTaskId`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:550
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:557
 
 #### Parameters
 
@@ -568,7 +588,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:550
 
 > **abort**(`reason`?, `data`?): `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:564
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:571
 
 #### Parameters
 
@@ -616,7 +636,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:308
 
 > **arr2ObjParams**(`params`): `any`[]
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:72
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:76
 
 #### Parameters
 
@@ -784,7 +804,7 @@ the dest object
 
 > **cleanTaskAborter**(`aborter`): `void`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:553
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:560
 
 #### Parameters
 
@@ -856,7 +876,7 @@ the new dest object
 
 > **countTokens**(`text`, `options`?): `Promise`\<`number`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:367
+Defined in: packages/ai-tool-llm/dist/index.d.ts:368
 
 #### Parameters
 
@@ -878,7 +898,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:367
 
 > **createAborter**(`params`?, `taskId`?, `raiseError`?): `TaskAbortController`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:551
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:558
 
 #### Parameters
 
@@ -908,7 +928,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:551
 
 > **createTaskPromise**\<`Output`\>(`runTask`, `params`, `options`?): `TaskPromise`\<`Output`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:555
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:562
 
 #### Type Parameters
 
@@ -1016,7 +1036,7 @@ the dest object.
 
 > **formatPrompt**(`messages`, `modelInfo`?, `options`?): `Promise`\<`undefined` \| `string`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:357
+Defined in: packages/ai-tool-llm/dist/index.d.ts:358
 
 #### Parameters
 
@@ -1064,7 +1084,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:357
 
 > **func**(`__namedParameters`): `Promise`\<`any`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/7c0e2fd6251c3fca42d35aed030017dcc528f3d2/src/openai-provider.ts#L111)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L111)
 
 #### Parameters
 
@@ -1092,7 +1112,7 @@ Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://git
 
 > **getChatTemplate**(`modelInfo`?, `options`?): `Promise`\<`undefined` \| `AIPromptResult`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:353
+Defined in: packages/ai-tool-llm/dist/index.d.ts:354
 
 #### Parameters
 
@@ -1120,7 +1140,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:353
 
 > **getCurrentProvider**(): `undefined` \| `LLMProvider`
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:350
+Defined in: packages/ai-tool-llm/dist/index.d.ts:351
 
 #### Returns
 
@@ -1132,7 +1152,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:350
 
 > **getDefaultParameters**(`chatTemplate`, `model`): `any`
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:365
+Defined in: packages/ai-tool-llm/dist/index.d.ts:366
 
 #### Parameters
 
@@ -1154,7 +1174,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:365
 
 > **getFunc**(`name`?): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:78
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:82
 
 #### Parameters
 
@@ -1172,7 +1192,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:78
 
 > **getFuncWithPos**(`name`?): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:83
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:87
 
 #### Parameters
 
@@ -1190,7 +1210,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:83
 
 > **getModelInfo**(`modelName`?, `options`?): `Promise`\<`undefined` \| `AIModelParams`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:352
+Defined in: packages/ai-tool-llm/dist/index.d.ts:353
 
 #### Parameters
 
@@ -1224,11 +1244,29 @@ the descriptors of properties object
 
 ***
 
+### getProvider()
+
+> **getProvider**(`name`): `ToolFunc`
+
+Defined in: packages/ai-tool-llm/dist/index.d.ts:350
+
+#### Parameters
+
+##### name
+
+`string`
+
+#### Returns
+
+`ToolFunc`
+
+***
+
 ### getRunningTask()
 
 > **getRunningTask**(`taskId`?): `undefined` \| `TaskAbortController`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:547
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:554
 
 #### Parameters
 
@@ -1250,7 +1288,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:547
 
 > **getRunningTaskCount**(): `number`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:548
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:555
 
 #### Returns
 
@@ -1266,7 +1304,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:548
 
 > **getSemaphore**(`isReadyFn`?): `undefined` \| `Semaphore`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:543
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:550
 
 #### Parameters
 
@@ -1288,7 +1326,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:543
 
 > **hasAsyncFeature**(`feature`): `boolean`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:84
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:88
 
 #### Parameters
 
@@ -1354,7 +1392,7 @@ this object.
 
 > **isAborted**(`taskId`?): `boolean`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:546
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:553
 
 #### Parameters
 
@@ -1528,7 +1566,7 @@ the dest object.
 
 > **obj2ArrParams**(`params`?): `any`[]
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:73
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:77
 
 #### Parameters
 
@@ -1546,7 +1584,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:73
 
 > **processModelOptions**(`model`, `prompt`, `options`): `Promise`\<`AIOptions`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/7c0e2fd6251c3fca42d35aed030017dcc528f3d2/src/openai-provider.ts#L32)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L32)
 
 #### Parameters
 
@@ -1594,7 +1632,7 @@ A property name.
 
 > **register**(): `boolean` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:70
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:74
 
 #### Returns
 
@@ -1606,7 +1644,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:70
 
 > **run**(`params`?): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:75
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:79
 
 #### Parameters
 
@@ -1624,7 +1662,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:75
 
 > **runAs**(`name`, `params`?): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:76
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:80
 
 #### Parameters
 
@@ -1646,7 +1684,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:76
 
 > **runAsSync**(`name`, `params`?): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:77
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:81
 
 #### Parameters
 
@@ -1668,7 +1706,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:77
 
 > **runAsyncCancelableTask**\<`Output`\>(`params`, `runTask`, `options`?): `TaskPromise`\<`Output`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:559
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:566
 
 #### Type Parameters
 
@@ -1712,7 +1750,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:559
 
 > **runSync**(`params`?): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:74
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:78
 
 #### Parameters
 
@@ -1730,7 +1768,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:74
 
 > **runWithPos**(...`params`): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:81
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:85
 
 #### Parameters
 
@@ -1748,7 +1786,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:81
 
 > **runWithPosAs**(`name`, ...`params`): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:82
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:86
 
 #### Parameters
 
@@ -1770,7 +1808,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:82
 
 > **runWithPosAsSync**(`name`, ...`params`): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:80
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:84
 
 #### Parameters
 
@@ -1792,7 +1830,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:80
 
 > **runWithPosSync**(...`params`): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:79
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:83
 
 #### Parameters
 
@@ -1810,7 +1848,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:79
 
 > **setCurrentProvider**(`name`): `void`
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:351
+Defined in: packages/ai-tool-llm/dist/index.d.ts:352
 
 #### Parameters
 
@@ -1840,7 +1878,7 @@ Defined in: node\_modules/.pnpm/property-manager@2.0.0/node\_modules/property-ma
 
 > **tokenize**(`text`, `options`?): `Promise`\<`number`[]\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:366
+Defined in: packages/ai-tool-llm/dist/index.d.ts:367
 
 #### Parameters
 
@@ -1912,7 +1950,7 @@ Returns a string representation of an object.
 
 > **unregister**(): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:71
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:75
 
 #### Returns
 
@@ -2402,7 +2440,7 @@ An iterable object that contains key-value entries for properties and methods.
 
 > `static` **get**(`name`): `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:54
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:58
 
 #### Parameters
 
@@ -2420,7 +2458,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:54
 
 > `static` **getAllByTag**(`tagName`): `ToolFunc`[]
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:57
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:61
 
 #### Parameters
 
@@ -2456,7 +2494,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:339
 
 > `static` **getByTag**(`tagName`): `undefined` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:56
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:60
 
 #### Parameters
 
@@ -2486,7 +2524,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:340
 
 > `static` **getFunc**(`name`): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:61
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:65
 
 #### Parameters
 
@@ -2504,7 +2542,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:61
 
 > `static` **getFuncWithPos**(`name`): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:64
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:68
 
 #### Parameters
 
@@ -2658,7 +2696,7 @@ The object that references the prototype.
 
 > `static` **hasAsyncFeature**(`feature`): `boolean`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:58
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:62
 
 #### Parameters
 
@@ -2816,7 +2854,7 @@ Object that contains the properties and methods. This can be an object that you 
 
 > `static` **list**(): `Funcs`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:55
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:59
 
 #### Returns
 
@@ -2856,7 +2894,7 @@ Object to make non-extensible.
 
 > `static` **register**(`name`, `options`): `boolean` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:65
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:69
 
 ##### Parameters
 
@@ -2876,7 +2914,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:65
 
 > `static` **register**(`func`, `options`): `boolean` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:66
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:70
 
 ##### Parameters
 
@@ -2896,7 +2934,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:66
 
 > `static` **register**(`name`, `options`?): `boolean` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:67
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:71
 
 ##### Parameters
 
@@ -2918,7 +2956,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:67
 
 > `static` **run**(`name`, `params`?): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:59
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:63
 
 #### Parameters
 
@@ -2940,7 +2978,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:59
 
 > `static` **runSync**(`name`, `params`?): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:60
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:64
 
 #### Parameters
 
@@ -2962,7 +3000,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:60
 
 > `static` **runWithPos**(`name`, ...`params`): `Promise`\<`any`\>
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:62
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:66
 
 #### Parameters
 
@@ -2984,7 +3022,7 @@ Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:62
 
 > `static` **runWithPosSync**(`name`, ...`params`): `any`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:63
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:67
 
 #### Parameters
 
@@ -3060,7 +3098,7 @@ The value of the new prototype or null.
 
 > `static` **unregister**(`name`): `undefined` \| `ToolFunc`
 
-Defined in: packages/ai-tool/dist/index-Br-4ZYgE.d.ts:68
+Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:72
 
 #### Parameters
 
