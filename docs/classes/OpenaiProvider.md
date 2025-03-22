@@ -6,7 +6,7 @@
 
 # Class: OpenaiProvider
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L20)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/fb4f9970b49723163a84db98a9a8f4b63a264cc1/src/openai-provider.ts#L20)
 
 ## Extends
 
@@ -346,7 +346,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:335
 
 > **rule**: (`string` \| `RegExp`)[]
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L22)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/fb4f9970b49723163a84db98a9a8f4b63a264cc1/src/openai-provider.ts#L22)
 
 ***
 
@@ -876,7 +876,7 @@ the new dest object
 
 > **countTokens**(`text`, `options`?): `Promise`\<`number`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:368
+Defined in: packages/ai-tool-llm/dist/index.d.ts:369
 
 #### Parameters
 
@@ -1036,7 +1036,7 @@ the dest object.
 
 > **formatPrompt**(`messages`, `modelInfo`?, `options`?): `Promise`\<`undefined` \| `string`\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:358
+Defined in: packages/ai-tool-llm/dist/index.d.ts:359
 
 #### Parameters
 
@@ -1084,7 +1084,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:358
 
 > **func**(`__namedParameters`): `Promise`\<`any`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L111)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/fb4f9970b49723163a84db98a9a8f4b63a264cc1/src/openai-provider.ts#L111)
 
 #### Parameters
 
@@ -1126,6 +1126,10 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:354
 
 `boolean`
 
+###### provider?
+
+`string`
+
 ###### type?
 
 `AIPromptType`
@@ -1152,7 +1156,7 @@ Defined in: packages/ai-tool-llm/dist/index.d.ts:351
 
 > **getDefaultParameters**(`chatTemplate`, `model`): `any`
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:366
+Defined in: packages/ai-tool-llm/dist/index.d.ts:367
 
 #### Parameters
 
@@ -1584,7 +1588,7 @@ Defined in: packages/ai-tool/dist/index-BkwhCK1q.d.ts:77
 
 > **processModelOptions**(`model`, `prompt`, `options`): `Promise`\<`AIOptions`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/27f4a300e733bddbcfdb79f142f3eeb461f1f083/src/openai-provider.ts#L32)
+Defined in: [packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/fb4f9970b49723163a84db98a9a8f4b63a264cc1/src/openai-provider.ts#L32)
 
 #### Parameters
 
@@ -1878,7 +1882,7 @@ Defined in: node\_modules/.pnpm/property-manager@2.0.0/node\_modules/property-ma
 
 > **tokenize**(`text`, `options`?): `Promise`\<`number`[]\>
 
-Defined in: packages/ai-tool-llm/dist/index.d.ts:367
+Defined in: packages/ai-tool-llm/dist/index.d.ts:368
 
 #### Parameters
 
