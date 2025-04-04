@@ -35,14 +35,12 @@
   "dependencies": {
     "@isdk/ai-tool": "workspace:*",
     "@isdk/ai-tool-llm": "workspace:*",
-    "@isdk/ai-tool-sqlite": "workspace:*",
     "openai": "^4.91.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.6.2",
     "@huggingface/hub": "^0.15.2",
     "@isdk/ai-tool-prompt": "workspace:*",
-    "@types/better-sqlite3": "^7.6.11",
     "@types/jest": "^29.5.13",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "eslint": "^9.10.0",
