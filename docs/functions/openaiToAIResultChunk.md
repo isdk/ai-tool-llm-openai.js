@@ -8,7 +8,7 @@
 
 > **openaiToAIResultChunk**(`chunk`, `params`?): `AIResult`\<`string`, `ChatCompletionChunk`\>
 
-Defined in: [packages/ai-tool-llm-openai/src/options.ts:5](https://github.com/isdk/ai-tool-llm-openai.js/blob/fb4f9970b49723163a84db98a9a8f4b63a264cc1/src/options.ts#L5)
+Defined in: [packages/ai-tool-llm-openai/src/options.ts:5](https://github.com/isdk/ai-tool-llm-openai.js/blob/7b4681d3e0a504f4facdb026bccb9cc95c760dcc/src/options.ts#L5)
 
 ## Parameters
 
