@@ -36,7 +36,7 @@
     "@isdk/ai-tool": "workspace:*",
     "@isdk/ai-tool-llm": "workspace:*",
     "@isdk/ai-tool-sqlite": "workspace:*",
-    "openai": "^4.62.1"
+    "openai": "^4.91.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.6.2",
