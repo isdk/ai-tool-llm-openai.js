@@ -33,14 +33,14 @@
     "release.alpha": "pnpm run release -- --prerelease alpha"
   },
   "dependencies": {
-    "@isdk/ai-tool": "workspace:*",
-    "@isdk/ai-tool-llm": "workspace:*",
+    "@isdk/ai-tool": "workspace:^",
+    "@isdk/ai-tool-llm": "workspace:^",
     "openai": "^4.91.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.10.1",
     "@huggingface/hub": "^0.15.2",
-    "@isdk/ai-tool-prompt": "workspace:*",
+    "@isdk/ai-tool-prompt": "workspace:^",
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "~8.41.0",
     "eslint": "^9.34.0",
