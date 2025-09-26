@@ -6,7 +6,7 @@
 
 # Class: OpenaiProvider
 
-Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/a9e2c7661d19e67937f1695a79fde890242973d6/src/openai-provider.ts#L20)
+Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:20](https://github.com/isdk/ai-tool-llm-openai.js/blob/e38a7742c9b0d341cfc55eda3536840686f411ac/src/openai-provider.ts#L20)
 
 ## Extends
 
@@ -413,7 +413,7 @@ The expected return type of the function, described as a string or a JSON schema
 
 > **rule**: (`string` \| `RegExp`)[]
 
-Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/a9e2c7661d19e67937f1695a79fde890242973d6/src/openai-provider.ts#L22)
+Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:22](https://github.com/isdk/ai-tool-llm-openai.js/blob/e38a7742c9b0d341cfc55eda3536840686f411ac/src/openai-provider.ts#L22)
 
 ***
 
@@ -1237,7 +1237,7 @@ Defined in: @isdk/ai-tools/packages/ai-tool-llm/dist/index.d.ts:367
 
 > **func**(`__namedParameters`): `Promise`\<`any`\>
 
-Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/a9e2c7661d19e67937f1695a79fde890242973d6/src/openai-provider.ts#L111)
+Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:111](https://github.com/isdk/ai-tool-llm-openai.js/blob/e38a7742c9b0d341cfc55eda3536840686f411ac/src/openai-provider.ts#L111)
 
 #### Parameters
 
@@ -1786,7 +1786,7 @@ An array of positional arguments.
 
 > **processModelOptions**(`model`, `prompt`, `options`): `Promise`\<`AIOptions`\>
 
-Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/a9e2c7661d19e67937f1695a79fde890242973d6/src/openai-provider.ts#L32)
+Defined in: [@isdk/ai-tools/packages/ai-tool-llm-openai/src/openai-provider.ts:32](https://github.com/isdk/ai-tool-llm-openai.js/blob/e38a7742c9b0d341cfc55eda3536840686f411ac/src/openai-provider.ts#L32)
 
 #### Parameters
 
